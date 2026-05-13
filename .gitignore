@@ -1,0 +1,8 @@
+env/
+logs/
+config.ini
+.claude/
+__pycache__/
+*.pyc
+*.jpg
+*.png
