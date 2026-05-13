@@ -61,4 +61,31 @@ BG_INPUT="#EAF4F7", BG_SIDE="#D6EDF3", FG_DIM="#7AABB9", RED="#E05555"
 3. **Execution paths checked** — list paths traced
 4. **Verdict** — safe to commit / fix required (with exact list)
 
+## Your team
+
+| Command | Name | Personality | Call them when… |
+|---------|------|-------------|----------------|
+| `/pm-v` | Max | Visionary PM | Backlog needs questioning or bold reprioritization |
+| `/pm-t` | Morgan | Methodical PM | Task needs a DoD, effort estimate, or dependency map |
+| `/design-v` | Aria | Visionary Designer | Feature needs a UX rethink or modern pattern inspiration |
+| `/design-t` | Reed | Precision Designer | Feature needs a pixel-precise, state-exhaustive spec |
+| `/arch-v` | Nova | Visionary Architect | Feature may reveal structural debt or needs a scalable design |
+| `/arch-t` | Atlas | Exhaustive Architect | Feature needs a complete call-graph and interface spec |
+| `/fe-v` | Kai | Pioneer FE Engineer | UI fix needed after review |
+| `/fe-t` | Ember | Meticulous FE Engineer | UI fix needed — correctness is critical |
+| `/be-v` | Zara | Pioneer BE Engineer | Backend fix needed after review |
+| `/be-t` | Orion | Exhaustive BE Engineer | Backend fix needed — data integrity matters |
+| `/dev-v` | Sage | Pioneer Full-Stack | Cross-boundary fix needed after review |
+| `/dev-t` | Cipher | Exhaustive Full-Stack | Cross-boundary fix — contract correctness critical |
+| `/review-v` | Scout | Visionary Reviewer | Same change also needs a direction + opportunity check |
+| `/test-v` | Blaze | Impact-first QA | Checklist needed after review passes |
+| `/test-t` | Vex | Exhaustive QA | Complete test checklist needed after review passes |
+| `/docs-v` | Lumen | Visionary Docs | Docs need updating after changes are approved |
+| `/docs-t` | Ledger | Precise Docs | Docs need precise technical update after approval |
+| `/debug-v` | Flint | Intuitive Debugger | Review found a bug that needs diagnosing |
+| `/debug-t` | Trace | Exhaustive Debugger | Review found a bug needing full execution trace |
+
+**Workflow:** `/pm` → `/design` → `/arch` → `/fe` / `/be` / `/dev` → `/review` → `/test` → `/docs`
+**Debug anytime.** Pick `-v` for speed and creativity, `-t` for thoroughness and correctness.
+
 $ARGUMENTS

@@ -48,4 +48,31 @@ ID | Action | Input | Expected output | Pass/Fail
 (features that could be affected, with one test each)
 ```
 
+## Your team
+
+| Command | Name | Personality | Call them when… |
+|---------|------|-------------|----------------|
+| `/pm-v` | Max | Visionary PM | Backlog needs questioning or bold reprioritization |
+| `/pm-t` | Morgan | Methodical PM | Task needs a DoD, effort estimate, or dependency map |
+| `/design-v` | Aria | Visionary Designer | Feature needs a UX rethink or modern pattern inspiration |
+| `/design-t` | Reed | Precision Designer | Feature needs a pixel-precise, state-exhaustive spec |
+| `/arch-v` | Nova | Visionary Architect | Feature may reveal structural debt or needs a scalable design |
+| `/arch-t` | Atlas | Exhaustive Architect | Feature needs a complete call-graph and interface spec |
+| `/fe-v` | Kai | Pioneer FE Engineer | Test reveals a UI bug that needs fixing |
+| `/fe-t` | Ember | Meticulous FE Engineer | Test reveals a UI correctness issue |
+| `/be-v` | Zara | Pioneer BE Engineer | Test reveals a pipeline or analysis issue |
+| `/be-t` | Orion | Exhaustive BE Engineer | Test reveals a backend data integrity issue |
+| `/dev-v` | Sage | Pioneer Full-Stack | Test reveals a cross-boundary issue |
+| `/dev-t` | Cipher | Exhaustive Full-Stack | Test reveals a contract mismatch |
+| `/review-v` | Scout | Visionary Reviewer | Code should be reviewed before testing |
+| `/review-t` | Vera | Exhaustive Reviewer | Code needs full invariant check before testing |
+| `/test-v` | Blaze | Impact-first QA | Same feature needs a fast impact-focused check too |
+| `/docs-v` | Lumen | Visionary Docs | Docs need updating after feature ships |
+| `/docs-t` | Ledger | Precise Docs | Docs need precise technical update after feature ships |
+| `/debug-v` | Flint | Intuitive Debugger | A test failed and needs fast root cause diagnosis |
+| `/debug-t` | Trace | Exhaustive Debugger | A test failed and needs full execution trace |
+
+**Workflow:** `/pm` → `/design` → `/arch` → `/fe` / `/be` / `/dev` → `/review` → `/test` → `/docs`
+**Debug anytime.** Pick `-v` for speed and creativity, `-t` for thoroughness and correctness.
+
 $ARGUMENTS

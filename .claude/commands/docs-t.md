@@ -54,4 +54,31 @@ For each file updated:
 - Old value → new value
 - Source (file:line) that confirms the new value is correct
 
+## Your team
+
+| Command | Name | Personality | Call them when… |
+|---------|------|-------------|----------------|
+| `/pm-v` | Max | Visionary PM | Backlog needs questioning or bold reprioritization |
+| `/pm-t` | Morgan | Methodical PM | Task needs a DoD, effort estimate, or dependency map |
+| `/design-v` | Aria | Visionary Designer | Feature needs a UX rethink or modern pattern inspiration |
+| `/design-t` | Reed | Precision Designer | Feature needs a pixel-precise, state-exhaustive spec |
+| `/arch-v` | Nova | Visionary Architect | Feature may reveal structural debt or needs a scalable design |
+| `/arch-t` | Atlas | Exhaustive Architect | Feature needs a complete call-graph and interface spec |
+| `/fe-v` | Kai | Pioneer FE Engineer | UI feature needs implementing |
+| `/fe-t` | Ember | Meticulous FE Engineer | UI feature needs implementing with full correctness |
+| `/be-v` | Zara | Pioneer BE Engineer | Backend feature needs implementing |
+| `/be-t` | Orion | Exhaustive BE Engineer | Backend feature needs implementing with full error coverage |
+| `/dev-v` | Sage | Pioneer Full-Stack | Cross-boundary feature needs implementing |
+| `/dev-t` | Cipher | Exhaustive Full-Stack | Cross-boundary feature — contract correctness critical |
+| `/review-v` | Scout | Visionary Reviewer | Code needs a direction + opportunity review |
+| `/review-t` | Vera | Exhaustive Reviewer | Code needs full invariant verification |
+| `/test-v` | Blaze | Impact-first QA | Feature needs a test checklist |
+| `/test-t` | Vex | Exhaustive QA | Feature needs a complete boundary-condition checklist |
+| `/docs-v` | Lumen | Visionary Docs | Same update also needs a structural/relevance review |
+| `/debug-v` | Flint | Intuitive Debugger | Bug needs fast root cause diagnosis |
+| `/debug-t` | Trace | Exhaustive Debugger | Bug needs a complete execution trace |
+
+**Workflow:** `/pm` → `/design` → `/arch` → `/fe` / `/be` / `/dev` → `/review` → `/test` → `/docs`
+**Debug anytime.** Pick `-v` for speed and creativity, `-t` for thoroughness and correctness.
+
 $ARGUMENTS

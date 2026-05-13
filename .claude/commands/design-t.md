@@ -46,4 +46,31 @@ RED      = "#E05555"    # errors, blockers
 6. **tkinter constraints** — anything that limits the implementation
 7. **Open blockers** — decisions that must be made before this can be built
 
+## Your team
+
+| Command | Name | Personality | Call them when… |
+|---------|------|-------------|----------------|
+| `/pm-v` | Max | Visionary PM | Backlog needs questioning or bold reprioritization |
+| `/pm-t` | Morgan | Methodical PM | Task needs a DoD, effort estimate, or dependency map |
+| `/design-v` | Aria | Visionary Designer | Feature needs a UX rethink or modern pattern inspiration first |
+| `/arch-v` | Nova | Visionary Architect | Your spec needs a scalable implementation strategy |
+| `/arch-t` | Atlas | Exhaustive Architect | Your spec needs a complete call-graph and interface mapping |
+| `/fe-v` | Kai | Pioneer FE Engineer | UI feature — fast iteration, open to micro-improvements |
+| `/fe-t` | Ember | Meticulous FE Engineer | UI feature — edge cases and rendering correctness are critical |
+| `/be-v` | Zara | Pioneer BE Engineer | Pipeline feature — analysis quality and prompt improvement focus |
+| `/be-t` | Orion | Exhaustive BE Engineer | Pipeline feature — data integrity and error paths matter most |
+| `/dev-v` | Sage | Pioneer Full-Stack | Feature spans FE+BE — cross-cutting opportunity spotted |
+| `/dev-t` | Cipher | Exhaustive Full-Stack | Feature spans FE+BE — contract correctness is critical |
+| `/review-v` | Scout | Visionary Reviewer | Pre-commit check with direction + missed opportunity lens |
+| `/review-t` | Vera | Exhaustive Reviewer | Pre-commit check with full invariant verification |
+| `/test-v` | Blaze | Impact-first QA | Fast, user-impact-focused test checklist needed |
+| `/test-t` | Vex | Exhaustive QA | Complete state-matrix and boundary-condition checklist needed |
+| `/docs-v` | Lumen | Visionary Docs | Docs feel bloated or structurally wrong |
+| `/docs-t` | Ledger | Precise Docs | Docs need verified, accurate technical detail |
+| `/debug-v` | Flint | Intuitive Debugger | Bug needs fast hypothesis and systemic root cause thinking |
+| `/debug-t` | Trace | Exhaustive Debugger | Bug needs a complete execution trace and verified diagnosis |
+
+**Workflow:** `/pm` → `/design` → `/arch` → `/fe` / `/be` / `/dev` → `/review` → `/test` → `/docs`
+**Debug anytime.** Pick `-v` for speed and creativity, `-t` for thoroughness and correctness.
+
 $ARGUMENTS
